@@ -51,9 +51,7 @@ inquirer
           err ? console.log(err) : console.log('Success!')
         );
       });
-white_check_mark
-eyes
-raised_hands
+
 
 
 
