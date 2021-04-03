@@ -42,7 +42,7 @@ module.exports = [
 	{
         type: 'list',
         name: 'license',
-        choices: ['MIT'],
+        choices: ['MIT', 'Just Take MIT', 'Dont Make Me Hurt You'],
         message: 'Which license would you like to use for your project?',
       },
 ];

@@ -1,8 +1,4 @@
-const fs = require("fs");
-const questions = require("./questions.js");
-const inquirer = require("inquirer");
-const generateREADME = (answers) =>
-`# Table of Contents:
+# Table of Contents:
 * [Title](#Title)
 * [Description](#Description)
 * [Usage](#Usage)
@@ -13,23 +9,23 @@ const generateREADME = (answers) =>
 * [Email](#Email)
 
 # Title:
-# ${answers.title}
+# ReadMe-and-Weep
 
 # Description:
-${answers.description}
+This is a ReadMe markdown file generator for my Columbia Engineering Full Stack Web Development Class.
 
 # Usage:
-${answers.usage}
+https://github.com/LawrieDrew/ReadMe-and-Weep.git
 
 # Contribution Guidelines:
-${answers.contribution}
+My project is in a public repository on Github which is an open source platform. It can be forked and all contribution is welcome!
 
 # Tests:
-Some of the tests that I ran for this project are: ${answers.tests}.
+Some of the tests that I ran for this project are: The initial successful test run of this generator is saved in the project repository in a file entitled ReadMe Demos. .
 
 # License:
 MIT License
-Copyright (c) 2021 ${answers.name}
+Copyright (c) 2021 Lauren Drew
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -47,22 +43,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # Github:
-Please visit my ${answers.github} to visit my work.
+Please visit my https://github.com/LawrieDrew/ReadMe-and-Weep.git to visit my work.
 
 # Email:
-My Email is ${answers.email}. Feel free to reach me here.`;
-
-inquirer
-    .prompt(questions)
-    .then((data) => {
-        const filename = `README.md`;
-        fs.writeFile(filename, generateREADME (data), (err) =>
-          err ? console.log(err) : console.log('Success!')
-        );
-      });
-
-
-
-
-
-
+My Email is laurenn.drew@gmail.com. Feel free to reach me here.
