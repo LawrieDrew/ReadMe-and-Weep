@@ -12,16 +12,16 @@
 # ReadMe-and-Weep
 
 # Description:
-This is a ReadMe markdown file generator for my Columbia Engineering Full Stack Web Development class.
+My project is in a public repository on Github which is an open source platform. This project can be forked and all contribution is welcome!
 
 # Usage:
 https://github.com/LawrieDrew/ReadMe-and-Weep.git
 
 # Contribution:
-My project is in a public repository on Github which is an open source platform. This project can be forked and all contribution is welcome!
+My project is in a public repository on Github, which is an open source platform.  You might even be on it now! This project can be forked and all contribution is welcome!
 
 # Tests:
-Some of the tests that I ran for this project are: The initial successful test run of this generator is saved in the project repository in a file entitled ReadMe Demos..
+The initial successful test run of this generator is saved in the project repository in a file entitled ReadMe Demos.
 
 # License:
 
