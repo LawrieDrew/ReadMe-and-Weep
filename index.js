@@ -21,14 +21,16 @@ ${answers.description}
 # Usage:
 ${answers.usage}
 
-# Contribution Guidelines:
+# Contribution:
 ${answers.contribution}
 
 # Tests:
-Some of the tests that I ran for this project are: ${answers.tests}.
+${answers.tests}.
 
 # License:
+
 MIT License
+
 Copyright (c) 2021 ${answers.name}
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
