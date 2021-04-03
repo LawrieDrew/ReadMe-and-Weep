@@ -7,12 +7,12 @@ module.exports = [
 	{
 		type: 'input',
 		name: 'title',
-		message: 'What is the title of the project?',
+		message: 'What is the title of your project?',
 	},
 	{
 		type: 'input',
 		name: 'description',
-		message: 'Share a little bit about project.',
+		message: 'Tell the world a little bit about your project.',
 	},
   {
     type: 'input',
@@ -22,7 +22,7 @@ module.exports = [
 	{
 		type: 'input',
 		name: 'contribution',
-		message: 'Share instructions on how others can contribute to your project',
+		message: 'Share instructions on how others can contribute to your project.',
 	},
   {
     type: 'input',
@@ -39,4 +39,10 @@ module.exports = [
 		name: 'email',
 		message: 'What is your email address?',
 	},
+	{
+        type: 'list',
+        name: 'license',
+        choices: ['MIT'],
+        message: 'Which license would you like to use for your project?',
+      },
 ];

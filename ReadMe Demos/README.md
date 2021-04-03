@@ -1,8 +1,4 @@
-const fs = require("fs");
-const questions = require("./questions.js");
-const inquirer = require("inquirer");
-const generateREADME = (answers) =>
-`# Table of Contents:
+# Table of Contents:
 * [Title](#Title)
 * [Description](#Description)
 * [Usage](#Usage)
@@ -13,23 +9,23 @@ const generateREADME = (answers) =>
 * [Email](#Email)
 
 # Title:
-# ${answers.title}
+# README and Weep
 
 ## Description:
-${answers.description}
+This is a README.md generator for my Web Development Class. Classy, huh?
 
 #Usage
-${answers.usage}
+https://github.com/LawrieDrew/ReadMe-and-Weep.git
 
 #Contribution Guidelines
-${answers.contribution}
+Contribute on my Github page! We're open source and happy to  have you!
 
 #Tests
-Some of the tests that I ran for this project are: ${answers.tests}.
+Some of the tests that I ran for this project are: We've mostly just been testing it in Node but I'm open to other testing and debugging suggestions!.
 
 #License
 MIT License
-Copyright (c) 2021 ${answers.name}
+Copyright (c) 2021 Lauren Drew
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -47,22 +43,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 #Github
-Please visit my ${answers.github} to visit my work.
+Please visit my https://github.com/LawrieDrew/ReadMe-and-Weep.git to visit my work.
 
 #Email
-My Email is ${answers.email}. Feel free to reach me here.`;
-
-inquirer
-    .prompt(questions)
-    .then((data) => {
-        const filename = `README.md`;
-        fs.writeFile(filename, generateREADME (data), (err) =>
-          err ? console.log(err) : console.log('Success!')
-        );
-      });
-
-
-
-
-
-
+My Email is laurenn.drew@gmail.com. Feel free to reach me here.
