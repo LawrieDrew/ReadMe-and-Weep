@@ -2,6 +2,7 @@
 * [Title](#Title)
 * [Description](#Description)
 * [Usage](#Usage)
+* [Live Demo](#Demo)
 * [Contribution](#Contribution)
 * [Tests](#Tests)
 * [License](#License)
@@ -12,16 +13,19 @@
 # ReadMe-and-Weep
 
 # Description:
-My project is in a public repository on Github which is an open source platform. This project can be forked and all contribution is welcome!
+This is a ReadMe markdown file generator created for my Columbia Engineering Full Stack web Development Bootcamp.
 
 # Usage:
 https://github.com/LawrieDrew/ReadMe-and-Weep.git
 
+# Demo:
+
+
 # Contribution:
-My project is in a public repository on Github, which is an open source platform.  You might even be on it now! This project can be forked and all contribution is welcome!
+My project is in a public repository on Github which is an open source platform. This project can be forked and all contribution is welcome!
 
 # Tests:
-The initial successful test run of this generator is saved in the project repository in a file entitled ReadMe Demos.
+The initial successful test run of this generator is saved in the project repository in a file entitled ReadMe demos..
 
 # License:
 

@@ -6,6 +6,7 @@ const generateREADME = (answers) =>
 * [Title](#Title)
 * [Description](#Description)
 * [Usage](#Usage)
+* [Live Demo](#Demo)
 * [Contribution](#Contribution)
 * [Tests](#Tests)
 * [License](#License)
@@ -20,6 +21,9 @@ ${answers.description}
 
 # Usage:
 ${answers.usage}
+
+# Demo:
+${answers.demo}
 
 # Contribution:
 ${answers.contribution}

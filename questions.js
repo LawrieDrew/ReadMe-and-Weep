@@ -19,6 +19,12 @@ module.exports = [
     name: 'usage',
     message: 'What is the deployed link of your project? (Please put https:// in it)',
   },
+  {
+	  type: 'input',
+	  name: 'demo',
+	  message: 'What is the deployed link of your live demonstration of this project? (Please put https:// in it)',
+
+  },
 	{
 		type: 'input',
 		name: 'contribution',
